@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
 body {
   font-family: "roboto";
   color: #262220;
@@ -6,6 +6,94 @@ body {
 
 body {
   background-color: #f7f1f0;
+}
+
+.profil_stat {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 35px;
+}
+.profil_stat img {
+  object-fit: cover;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.profil_stat .publication {
+  max-width: 75px;
+}
+.profil_stat .publication .nombre {
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 2px;
+  display: flex;
+  justify-content: center;
+}
+.profil_stat .publication .publication_categorie {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  font-size: 18px;
+  margin-top: 0px;
+}
+.profil_stat .followers {
+  max-width: 75px;
+}
+.profil_stat .followers .nombre {
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 2px;
+  display: flex;
+  justify-content: center;
+}
+.profil_stat .followers .followers_categorie {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  font-size: 18px;
+  margin-top: 0px;
+}
+.profil_stat .suivie {
+  max-width: 75px;
+}
+.profil_stat .suivie .nombre {
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 2px;
+  display: flex;
+  justify-content: center;
+}
+.profil_stat .suivie .suivie_categorie {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  font-size: 18px;
+  margin-top: 0px;
+}
+
+.biographie {
+  margin-left: 8px;
+}
+.biographie h2 {
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+.biographie p {
+  margin: 0px;
+  font-size: 18px;
+}
+.biographie .suivie_par {
+  display: flex;
+  margin-top: 5px;
+}
+.biographie .suivie_par .text {
+  font-size: 15px;
+}
+.biographie .suivie_par .suivie_entreprise {
+  text-decoration: none;
+  color: #262220;
+  font-size: 16px;
+  font-weight: 600;
+  margin-left: 5px;
 }
 
 header {
