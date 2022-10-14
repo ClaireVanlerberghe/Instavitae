@@ -4,6 +4,33 @@ body {
   color: #262220;
 }
 
+.boutons_profil {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+.boutons_profil .bouton_suivie {
+  text-decoration: none;
+  color: #f7f1f0;
+  font-weight: 400;
+  font-size: 20px;
+  background-color: #c3a6a0;
+  padding: 12px 55px 12px 55px;
+  border-radius: 15px;
+}
+.boutons_profil .bouton_suivie i {
+  font-size: 15px;
+}
+.boutons_profil .bouton_contact {
+  text-decoration: none;
+  color: #f7f1f0;
+  font-weight: 400;
+  font-size: 20px;
+  background-color: #c3a6a0;
+  padding: 12px 65px 12px 65px;
+  border-radius: 15px;
+}
+
 body {
   background-color: #f7f1f0;
 }
